@@ -922,3 +922,20 @@ header > a:hover {
         line-height: 1.5;
     }
 }
+@media (max-width: 600px) {
+
+    header {
+        padding-bottom: 80px;
+    }
+
+    header > a {
+        transform: none;
+        margin-top: 25px;
+        position: relative;
+        z-index: 2;
+    }
+
+    header > a:hover {
+        transform: scale(1.05);
+    }
+}
