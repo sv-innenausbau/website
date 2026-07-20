@@ -832,8 +832,8 @@ header > a:hover {
     }
 
     header {
-        min-height: 760px;
-        padding: 70px 15px 120px;
+        min-height: 680px;
+        padding: 70px 15px 80px;
     }
 
     header h1 {
