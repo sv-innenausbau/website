@@ -939,3 +939,15 @@ header > a:hover {
         transform: scale(1.05);
     }
 }
+/* Только для телефонов */
+@media (max-width: 600px) {
+
+    header p {
+        margin-bottom: 100px !important;
+    }
+
+    header > a {
+        margin-top: 0 !important;
+    }
+
+}
